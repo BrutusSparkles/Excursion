@@ -1,0 +1,39 @@
+h1 {
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#aboveTent {
+    color: gray;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+    text-align: center;
+}
+
+#copyright {
+    text-align: right;
+    color: gray;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 21px;
+}
