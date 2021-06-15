@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="resources\css\style.css">
 </head>
 <body>
-    <header>
+    <div class="container">
         <h1>Discover hidden places in the world around you</h1>
         <p><a>Download Excursion (Coming soon!)</a></p>
-    </header>
-    <p><video autoplay muted loop>
-        <source class="phone" src="https://content.codecademy.com/programs/freelance-one/excursion/videos/excursion.mp4"
-        alt="" type="video/mp4">
-    </video></p>
-    <h2>Your personal travel guide</h2>
-    <p id="aboveTent">Excursion remembers places you like, and recommends new points of interest around you.</p>
-    <p><img src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg" alt="camping tent on top of mountain"></p>
-    <p><img src="https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png" alt="cellphone icon"></p>
+        <video autoplay muted loop id="phone" >
+            <source id="phone" src="https://content.codecademy.com/programs/freelance-one/excursion/videos/excursion.mp4"
+            alt="" type="video/mp4">
+        </video>
+    </div>
+    <div class="container">
+        <h2>Your personal travel guide</h2>
+        <p class="aboveTent">Excursion remembers places you like, and recommends new points of interest around you.</p>
+        <img class="tentImg" src="https://content.codecademy.com/programs/freelance-one/excursion/images/camp.jpg" alt="camping tent on top of mountain">
+        <img id="phoneIcon" src="https://content.codecademy.com/programs/freelance-one/excursion/images/phone.png" alt="cellphone icon">
+    </div>
     <h2>Coming Soon for iPhone and Android</h2>
     <p><a>Download Excursion (Coming soon!)</a></p>
     <p id="copyright">&#169 Excursion</p>
